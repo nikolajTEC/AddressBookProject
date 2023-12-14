@@ -27,7 +27,7 @@ namespace AddressBookProject
         public override string ToString()
         {
             string addressesToString = string.Join(", \n", _addresses);
-            return $"Owner: {Owner}\nAdresses: {addressesToString}";
+            return $"Owner: {Owner}\n{addressesToString}";
         }
     }
 }
